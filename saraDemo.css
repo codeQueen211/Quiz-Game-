@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(to right, rgb(85, 85, 241), rgb(42, 42, 174));
+}
+.quizzTitle{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 180px;
+    color:  rgb(242, 235, 244);
+}
+.questionsContainer{
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    color:  rgb(242, 235, 244);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* background-color: aliceblue; */
+  
+}
+.answersContainer{
+    display: grid;
+    place-items: center ;
+}
+.resultsContainer{
+    display: grid;
+    place-items: center right;
+}
+button{
+    /* padding: 10px 20px;
+    width: 20px;
+    margin: 10px;
+    background-color: rgb(182, 61, 216);
+    border: none;
+    border-radius: 10px; */
+    color:  rgb(242, 235, 244);
+    background-color: rgb(182, 61, 216);
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: 350px; /* Adjust the width as needed */
+    text-align: center;
+    transition: all 0.3s;
+}
+button:hover{
+    cursor: pointer;
+   background-color:  rgb(148, 75, 169);
+   transform: translateY(-10px);
+}
+.next{
+    display: none;
+    color:  rgb(242, 235, 244);
+}
+#result{
+    display: none;
+    color:  rgb(242, 235, 244);
+}
+#restart{
+    display: none;
+    color:  rgb(242, 235, 244);
+    text-align: center;
+}

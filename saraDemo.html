@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="saraDemo.css">
+    <script src="saraDemo.js" defer></script>
+</head>
+<body>
+    <div class="quizzTitle">
+        <p>FRONT END QUIZ ✧˖°</p>
+    </div>
+    <div class="questionsContainer">
+        <p id="question"></p>
+    </div>
+    <div class="answersContainer">
+        <button id="option1" class="option" onclick="checkAnswer(1)"></button>
+        <button id="option2" class="option" onclick="checkAnswer(2)"></button>
+        <button id="option3" class="option" onclick="checkAnswer(3)"></button>
+        <button id="option4" class="option" onclick="checkAnswer(4)"></button>
+    </div>
+    <div class="resultsContainer">
+        <p id="result"></p>
+        <button id="next" class="next" onclick="nextQuestion()">Next Question ▶</button>
+        <button id="restart" class="restart" onclick="RestartQuiz()"></button>
+    </div>
+</body>
+</html>
