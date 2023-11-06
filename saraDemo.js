@@ -75,8 +75,8 @@ const questions = [
     }
 ];
 
-let currentQuestion=0;
-let Score=0;
+let currentQuestion=0; //the question index
+let Score=0; //the number of questions the player got right
 
 function RevealQuestion(){
     const questionElem= document.getElementById("question");
